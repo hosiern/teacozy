@@ -43,7 +43,7 @@ body {
 
 /*Jumbotron Styling*/
 .jumbo {
-  background-image: url("/images/img-mission-background.jpg");
+  background-image: url("./images/img-mission-background.jpg");
   height: 700px;  
   width: 1200px;
   margin: 0 auto;
@@ -105,7 +105,7 @@ body {
 
 /*Locations Section*/
 .locations {
-  background-image: url("/images/img-locations-background.jpg");
+  background-image: url("./images/img-locations-background.jpg");
   height: 500px;  
   width: 1200px;
   margin: 0 auto;
