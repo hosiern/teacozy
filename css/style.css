@@ -1,0 +1,164 @@
+/*Global Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  text-align: center;
+
+/*Header Styling*/
+.header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  display: flex;  
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  background-color: black;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.nav {
+  float: right;
+  margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+/*Jumbotron Styling*/
+.jumbo {
+  background-image: url("/images/img-mission-background.jpg");
+  height: 700px;  
+  width: 1200px;
+  margin: 0 auto;
+  align-content: center;
+  position: relative;
+  top: 69px;
+}
+
+.banner {
+  background-color: black;   
+  width: 100%;  
+}
+
+.banner h2, .banner h4 {
+  color: seashell;
+  opacity: 0.9;
+  line-height: 2em;
+  font-weight: 900;
+}
+
+/*Teas Section*/
+.teas {
+  width: 1000px;
+  margin: 130px auto 60px;
+}
+
+.teas h2, .teas h4 {
+  color: seashell;
+  background-color: black;
+  line-height: 2em; 
+  width: 100%;
+  opacity: 0.9;
+  font-weight: 900;
+}
+
+.teas h4 {
+  margin-bottom: 20px;
+}
+
+.tea-cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 30px
+}
+
+.tea-card img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-card h4 {
+  color: seashell;
+  width: 100%;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+/*Locations Section*/
+.locations {
+  background-image: url("/images/img-locations-background.jpg");
+  height: 500px;  
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  align-content: center; 
+}
+
+.locations h3 {
+  color: seashell;
+  font-weight: bold;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.locations-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.location-card {
+  color: seashell;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.location-card h3 
+  opacity: 0.9;
+}
+
+/*Footer Section*/
+.contact {
+  height: 200px;
+  color: seashell;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.copyright {
+  color: seashell;
+  font-weight: bold;
+  position: relative;
+  float: left;
+  margin: 20px;
+}
